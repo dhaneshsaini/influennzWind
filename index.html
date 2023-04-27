@@ -1,0 +1,731 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Influennz Skin &amp; Hair Clinic in South Delhi | Dr. Geetika Srivastava:
+      Best Dermatologist in South Delhi
+    </title>
+    <!-- splidejs -->
+    <link rel="stylesheet" href="src/assets/css/splide.min.css" />
+    <script src="src/assets/js/splide.min.js" defer></script>
+    <!-- animejs -->
+    <script src="src/assets/js/anime.js" defer></script>
+    <!-- scrollreveal -->
+    <script src="src/assets/js/scrollreveal.min.js" defer></script>
+    <!-- custom js -->
+    <script src="src/assets/js/main.js" defer></script>
+    <!-- tailwind css -->
+    <link rel="stylesheet" href="dist/output.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;600;700&family=League+Spartan:wght@400;500;600;700&family=Questrial&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="font-spartan">
+    <main class="container mx-auto overflow-hidden">
+      <header
+        class="px-5 py-4 lg:py-6 grid grid-cols-5 lg:grid-cols-none items-center lg:px-10 lg:grid-flow-col lg:justify-between"
+      >
+        <div class="col-span-4 lg:col-auto">
+          <a href="/">LOGO</a>
+        </div>
+        <div id="navicon" class="lg:hidden col-span-1 justify-self-end navicon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <nav
+          id="nav"
+          class="mt-6 lg:mt-0 items-start transition-all duration-150 hidden col-span-5 lg:col-auto lg:grid lg:grid-flow-col lg:justify-center gap-3 lg:gap-6"
+        >
+          <a class="navLink" href="/">Home</a>
+          <a class="navLink" href="/about">About</a>
+          <a class="navLink" href="/services">Services</a>
+          <a class="navLink" href="/blog">Blog</a>
+          <a class="navLink" href="/contact">Contact</a>
+        </nav>
+        <div class="hidden lg:block">
+          <a
+            class="bg-moody text-white py-3 border-2 transition-all border-moody px-6 text-lg hover:text-moody hover:bg-white"
+            href="#"
+            >Book Now</a
+          >
+        </div>
+      </header>
+      <!-- header ends -->
+      <section class="bg-dark" id="heroSlider">
+        <div>
+          <div
+            class="splide"
+            id="splideBanner"
+            role="group"
+            aria-label="banner-slider"
+          >
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img
+                    src="src/assets/images/banner1.jpg"
+                    data-splide-lazy="path-to-the-image"
+                  />
+                  <div class="h-full">
+                    <div class="h-full bg-darktrans1">
+                      <div class="slider_info slideIn">
+                        <h2 class="slidertext">
+                          Are you looking for a fast, safe and effective
+                          anti-ageing treatment?
+                        </h2>
+                        <a class="sliderbtn">Book a Consultation</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img
+                    src="src/assets/images/banner2.jpg"
+                    data-splide-lazy="path-to-the-image"
+                  />
+                  <div class="h-full">
+                    <div class="h-full bg-darktrans1">
+                      <div class="slider_info slideIn">
+                        <h2 class="slidertext">
+                          Stop wasting time on shaving and waxing
+                        </h2>
+                        <a class="sliderbtn">Book a Consultation</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img
+                    src="src/assets/images/banner3.jpg"
+                    data-splide-lazy="path-to-the-image"
+                  />
+                  <div class="h-full">
+                    <div class="h-full bg-darktrans1">
+                      <div class="slider_info slideIn">
+                        <h2 class="slidertext">
+                          Your skin and hair will look better than ever!
+                        </h2>
+                        <a class="sliderbtn">Book a Consultation</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img
+                    src="src/assets/images/banner4.jpg"
+                    data-splide-lazy="path-to-the-image"
+                  />
+                  <div class="h-full">
+                    <div class="h-full bg-darktrans1">
+                      <div class="slider_info slideIn">
+                        <h2 class="slidertext">
+                          You can be free from pimples and acne forever!
+                        </h2>
+                        <a class="sliderbtn">Book a Consultation</a>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="py-16">
+          <form
+            class="w-4/5 mx-auto gap-6 flex flex-col lg:flex-row items-center"
+          >
+            <input
+              class="w-full p-4 px-6 bg-transparent outline-none border text-gray-100 flex-1"
+              type="text"
+              placeholder="Name"
+            />
+            <input
+              class="w-full p-4 px-6 bg-transparent outline-none border text-gray-100 flex-1"
+              type="email"
+              placeholder="E-mail"
+            />
+            <input
+              class="w-full p-4 px-6 bg-transparent outline-none border text-gray-100 flex-1"
+              type="tel"
+              placeholder="Phone Number"
+            />
+            <input
+              class="w-full p-4 px-6 bg-white outline-none border text-moody uppercase hover:bg-moody transition-all tracking-wide hover:text-white hover:border-moody flex-1"
+              type="submit"
+              value="SEND"
+            />
+          </form>
+        </div>
+      </section>
+      <!-- end hero slider -->
+      <!-- start what we do -->
+      <section class="w-11/12 mx-auto pt-10 lg:w-4/5">
+        <div>
+          <h3
+            class="font-satisfy text-2xl lg:text-4xl text-moody mb-6 revealRight overflow-hidden"
+          >
+            what we do
+          </h3>
+          <h2
+            class="font-spartan text-3xl lg:text-6xl font-bold lg:w-1/2 capitalize revealRight overflow-hidden"
+          >
+            Are you pleased with your appearance?
+          </h2>
+        </div>
+        <div class="lg:flex mt-10">
+          <div class="lg:w-2/3 mb-6 lg:mb-0">
+            <img
+              loading="lazy"
+              class="lg:h-125 xl:h-auto w-full object-cover object-center revealLeft overflow-hidden"
+              src="src/assets/images/clinic.jpg"
+            />
+          </div>
+          <div class="lg:pl-8 lg:w-1/2 xl:w-1/3 font-spartan">
+            <p class="text-gray-500 text-xl mb-4 revealRight overflow-hidden">
+              Influennz is a well-known skin, laser and hair clinic in South
+              Delhi. The clinic is led by Dr. Geetika Srivastava, who is
+              acknowledged as one of the best dermatologists in South Delhi.
+            </p>
+            <p class="text-gray-500 text-xl mb-4 revealRight overflow-hidden">
+              We offer a range of services that will help improve the health and
+              appearance of your skin and hair.
+            </p>
+            <a
+              class="text-moody text-lg font-semibold underline underline-offset-4 revealRight overflow-hidden"
+              href="#"
+              >Read More</a
+            >
+          </div>
+        </div>
+        <div
+          class="lg:flex lg:justify-end lg:relative lg:bottom-32 xl:bottom-40 lg:right-0 mt-6 lg:mt-0 revealBottom"
+        >
+          <div class="flex gap-8 bg-moody text-white p-6 lg:px-20 lg:py-14">
+            <div>
+              <h3 class="text-2xl font-semibold">Clint</h3>
+              <h2 id="numOne" class="text-5xl lg:text-6xl font-bold"></h2>
+              <p>Changed their life</p>
+            </div>
+            <div>
+              <h3 class="text-2xl font-semibold">Consultant</h3>
+              <h2 class="text-5xl lg:text-6xl font-bold">
+                <span id="numTwo"></span>+
+              </h2>
+              <p class="text-lg">Help you become better</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end what we do -->
+      <!-- start our services -->
+      <section class="w-11/12 mx-auto pb-10 lg:w-4/5">
+        <div>
+          <h3
+            class="font-satisfy text-2xl lg:text-4xl text-moody mb-6 revealRight overflow-hidden"
+          >
+            Our Services
+          </h3>
+          <h2
+            class="font-spartan text-3xl lg:text-6xl font-bold lg:w-1/2 capitalize revealRight overflow-hidden"
+          >
+            Popular Services
+          </h2>
+          <p
+            class="mt-4 text-xl text-gray-500 lg:w-2/3 revealRight overflow-hidden"
+          >
+            We offer a range of treatments, from laser hair removal to acne
+            treatment, that are sure to meet your needs. Our clinic is staffed
+            by experienced professionals who will help you achieve the
+            beautiful, healthy skin you’ve always wanted.
+          </p>
+        </div>
+        <div class="mt-10 mx-auto">
+          <div
+            id="splideOurServices"
+            class="splide revealTop"
+            role="group"
+            aria-label="splide-our-services"
+          >
+            <div class="splide__track">
+              <ul class="splide__list">
+                <li class="splide__slide">
+                  <img loading="lazy" src="src/assets/images/slider1.jpg" />
+                  <div
+                    class="bg-gradient-to-t from-gray-900 hover:bg-darktrans hover:pb-6 transition-all duration-500 ease-in-out my-auto h-full w-full text-center text-white flex flex-col justify-end"
+                  >
+                    <h2 class="text-4xl font-bold">Acne Treatment</h2>
+                    <p class="text-xl mb-10">Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img loading="lazy" src="src/assets/images/serviceprp.jpg" />
+                  <div
+                    class="bg-gradient-to-t from-gray-900 hover:bg-darktrans hover:pb-6 transition-all duration-500 ease-in-out my-auto h-full w-full text-center text-white flex flex-col justify-end"
+                  >
+                    <h2 class="text-4xl font-bold">Laser Hair Removal</h2>
+                    <p class="text-xl mb-10">Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img loading="lazy" src="src/assets/images/slider1.jpg" />
+                  <div
+                    class="bg-gradient-to-t from-gray-900 hover:bg-darktrans hover:pb-6 transition-all duration-500 ease-in-out my-auto h-full w-full text-center text-white flex flex-col justify-end"
+                  >
+                    <h2 class="text-4xl font-bold">Botox & Fillers</h2>
+                    <p class="text-xl mb-10">Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img loading="lazy" src="src/assets/images/slider1.jpg" />
+                  <div
+                    class="bg-gradient-to-t from-gray-900 hover:bg-darktrans hover:pb-6 transition-all duration-500 ease-in-out my-auto h-full w-full text-center text-white flex flex-col justify-end"
+                  >
+                    <h2 class="text-4xl font-bold">Pigmentation Treatment</h2>
+                    <p class="text-xl mb-10">Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img loading="lazy" src="src/assets/images/slider1.jpg" />
+                  <div
+                    class="bg-gradient-to-t from-gray-900 hover:bg-darktrans hover:pb-6 transition-all duration-500 ease-in-out my-auto h-full w-full text-center text-white flex flex-col justify-end"
+                  >
+                    <h2 class="text-4xl font-bold">Skin Whitening</h2>
+                    <p class="text-xl mb-10">Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img loading="lazy" src="src/assets/images/serviceprp.jpg" />
+                  <div
+                    class="bg-gradient-to-t from-gray-900 hover:bg-darktrans hover:pb-6 transition-all duration-500 ease-in-out my-auto h-full w-full text-center text-white flex flex-col justify-end"
+                  >
+                    <h2 class="text-4xl font-bold">PRP</h2>
+                    <p class="text-xl mb-10">Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img loading="lazy" src="src/assets/images/slider1.jpg" />
+                  <div
+                    class="bg-gradient-to-t from-gray-900 hover:bg-darktrans hover:pb-6 transition-all duration-500 ease-in-out my-auto h-full w-full text-center text-white flex flex-col justify-end"
+                  >
+                    <h2 class="text-4xl font-bold">Hair Transplant</h2>
+                    <p class="text-xl mb-10">Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </li>
+                <li class="splide__slide">
+                  <img loading="lazy" src="src/assets/images/slider1.jpg" />
+                  <div
+                    class="bg-gradient-to-t from-gray-900 hover:bg-darktrans hover:pb-6 transition-all duration-500 ease-in-out my-auto h-full w-full text-center text-white flex flex-col justify-end"
+                  >
+                    <h2 class="text-4xl font-bold">Hair Loss Treatment</h2>
+                    <p class="text-xl mb-10">Lorem ipsum dolor sit amet.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end -->
+      <!-- start about doc -->
+      <section class="w-11/12 mx-auto py-10 lg:w-4/5">
+        <div>
+          <h3
+            class="font-satisfy text-2xl lg:text-4xl text-moody mb-6 revealRight overflow-hidden"
+          >
+            About Doctor
+          </h3>
+          <h2
+            class="font-spartan text-3xl lg:text-6xl font-bold lg:w-1/2 capitalize revealRight overflow-hidden"
+          >
+            Improving The quality of life through better health
+          </h2>
+        </div>
+        <div
+          class="my-6 flex flex-wrap items-center gap-6 flex-col lg:flex-row"
+        >
+          <div class="lg:flex-1">
+            <h2
+              class="font-bold text-moody text-6xl lg:text-8xl revealLeft overflow-hidden"
+            >
+              <span id="numThree"></span>+
+            </h2>
+            <h3 class="uppercase text-2xl revealLeft overflow-hidden">
+              Years of experiance
+            </h3>
+            <p class="text-xl text-gray-500 mb-4 revealLeft overflow-hidden">
+              There are many dermatologists in Delhi, but if you are looking for
+              the best dermatologist in South Delhi, Dr. Geetika Srivastava is
+              the doctor you want to see.
+            </p>
+            <p class="text-xl text-gray-500 revealLeft overflow-hidden">
+              Dr. Srivastava has been practicing dermatology for over 10 years
+              and has a wealth of experience in treating all types of skin and
+              hair problems.
+            </p>
+          </div>
+          <div class="lg:flex-1 w-full mt-6 revealTop">
+            <div
+              class="w-full lg:w-4/5 mx-auto h-96 docimg rounded-tl-3xl rounded-br-3xl bg-cover bg-no-repeat bg-center"
+            >
+              <div
+                class="h-full w-full bg-gradient-to-t from-gray-900 object-cover object-center flex flex-col items-center justify-end rounded-br-3xl"
+              >
+                <h3 class="text-2xl font-medium text-white mb-6">
+                  <a href="https://youtu.be/K8sqt7-UD4g">Watch Our Video</a>
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="lg:flex-1">
+            <h4 class="text-2xl font-semibold mb-4 revealRight overflow-hidden">
+              Best Dermatologist in South Delhi
+            </h4>
+            <p class="text-xl text-gray-500 mb-4 revealRight overflow-hidden">
+              She is highly skilled in performing cosmetic procedures such as
+              Botox and filler injections, laser hair removal, and chemical
+              peels. In addition to her clinical skills, Dr. Srivastava is also
+              a highly respected researcher who has published numerous papers on
+              various aspects of dermatology.
+            </p>
+            <p class="text-xl text-gray-500 mb-4 revealRight overflow-hidden">
+              Schedule an appointment with Dr. Geetika today, if you are looking
+              for the best skin specialist in South Delhi.
+            </p>
+            <a
+              class="text-xl font-medium border-2 p-3 px-5 hover:bg-moody hover:text-white hover:-translate-y-2 transition-all inline-block mt-4 border-moody text-moody revealRight overflow-hidden"
+              href="#"
+              >Contact Us</a
+            >
+          </div>
+        </div>
+      </section>
+      <!-- end about doc -->
+      <!-- start testimonial -->
+      <section>
+        <div
+          class="testimonialimg w-full h-152 my-10 bg-center bg-cover bg-no-repeat"
+        >
+          <div
+            class="w-full h-full bg-gradient-to-l from-black flex justify-end"
+          >
+            <div class="w-full lg:w-1/2 text-white">
+              <div
+                class="splide"
+                id="splideTestimonial"
+                role="group"
+                aria-label="splide-testimonial"
+              >
+                <div class="splide__track">
+                  <ul class="splide__list">
+                    <li class="splide__slide">
+                      <div
+                        class="h-full text-center lg:text-left flex flex-col items-center lg:items-start justify-center"
+                      >
+                        <h3 class="font-satisfy text-2xl text-moody mb-6">
+                          Our Services
+                        </h3>
+                        <h2
+                          class="font-spartan text-4xl font-bold lg:w-1/2 capitalize"
+                        >
+                          Happy Patient Says
+                        </h2>
+                        <p class="text-gray-300 text-xl mt-4">
+                          Lorem ipsum dolor sit amet consectetur adipisicing
+                          elit. Unde doloribus vero dicta minus atque nisi
+                          quidem, ipsa beatae iusto. Eos, ad quo dignissimos
+                          nesciunt voluptatem quos excepturi commodi ea eum!
+                        </p>
+                        <div
+                          class="flex gap-6 items-center text-left lg:justify-center mt-5"
+                        >
+                          <img
+                            loading="lazy"
+                            class="w-20 h-20 object-cover object-center rounded-full"
+                            src="src/assets/images/slider2.jpg"
+                          />
+                          <div class="flex flex-col">
+                            <h2 class="text-xl font-semibold">Patient Name</h2>
+                            <p class="text-gray-400 mt-1">30 Years</p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+
+                    <li class="splide__slide">
+                      <div
+                        class="h-full text-center lg:text-left flex flex-col items-center lg:items-start justify-center"
+                      >
+                        <h3 class="font-satisfy text-2xl text-moody mb-6">
+                          Our Services
+                        </h3>
+                        <h2
+                          class="font-spartan text-4xl font-bold lg:w-1/2 capitalize"
+                        >
+                          Happy Patient Says
+                        </h2>
+                        <p class="text-gray-300 text-xl mt-4">
+                          I visited influennz clinic for my acne after 3
+                          sessions my skin is so smooth I'm very happy with the
+                          results highly recommended
+                        </p>
+                        <div
+                          class="flex gap-6 items-center text-left lg:justify-center mt-5"
+                        >
+                          <img
+                            loading="lazy"
+                            class="w-20 h-20 object-cover object-center rounded-full"
+                            src="https://lh3.googleusercontent.com/a-/ACB-R5Rtg9FgqT4c0LyQIRbwu208KD7ZdR-tURWgXeB4gg=w75-h75-p-rp-mo-br100"
+                          />
+                          <div class="flex flex-col">
+                            <h2 class="text-xl font-semibold">Gaurav Singh</h2>
+                            <p class="text-gray-400 mt-1">30 Years</p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- end testimonial -->
+      <!-- start blog -->
+      <section class="w-11/12 mx-auto py-10 lg:w-4/5">
+        <div>
+          <h3
+            class="font-satisfy text-2xl lg:text-4xl text-moody mb-6 revealRight overflow-hidden"
+          >
+            Latest Articles
+          </h3>
+          <h2
+            class="font-spartan text-3xl lg:text-6xl font-bold lg:w-1/2 capitalize revealRight overflow-hidden"
+          >
+            From Our Blogs
+          </h2>
+        </div>
+        <!-- articles -->
+        <div class="lg:flex gap-8" id="articleSection">
+          <div class="flex-1">
+            <div class="revealTopBlog" aria-label="first post">
+              <span
+                class="rounded-full py-1 px-3 bg-moody text-white inline-block relative top-12 left-4"
+                >Beauty</span
+              >
+              <div class="overflow-hidden w-full">
+                <img
+                  loading="lazy"
+                  class="w-full h-full transition-all object-cover hover:scale-110"
+                  src="src/assets/images/slider2.jpg"
+                />
+              </div>
+              <div class="mt-4 flex">
+                <div class="py-1 pr-5">
+                  <h4 class="text-5xl font-bold">04</h4>
+                  <h6 class="font-satisfy text-2xl text-moody">Feb</h6>
+                </div>
+                <div>
+                  <h2 class="text-3xl font-semibold lg:text-5xl">
+                    Lorem ipsum dolor sit amet consec adipisicing.
+                  </h2>
+                  <p class="text-lg text-gray-500 lg:text-xl">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Tempora nihil ratione quod maxime, enim est sit quos
+                    quibusdam temporibus...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex-1 grid gap-6 mt-8">
+            <div aria-label="second post" class="revealBottomBlog flex gap-6">
+              <div class="w-32 h-32 lg:w-40 lg:h-40 overflow-hidden">
+                <img
+                  loading="lazy"
+                  class="w-full h-full transition-all object-cover hover:scale-110"
+                  src="src/assets/images/slider2.jpg"
+                />
+              </div>
+              <div class="w-4/6">
+                <h6 class="lg:mb-4">
+                  <span class="text-lg font-medium text-moody">Beauty</span>
+                  <span class="text-moody">/</span>
+                  <span class="text-gray-500">Mar 30, 2023</span>
+                </h6>
+                <h2 class="text-2xl lg:text-4xl font-semibold">
+                  Lorem ipsum dolor sit amet conse adipisicing
+                </h2>
+              </div>
+            </div>
+            <div aria-label="third post" class="revealBottomBlog flex gap-6">
+              <div class="w-32 h-32 lg:w-40 lg:h-40 overflow-hidden">
+                <img
+                  loading="lazy"
+                  class="w-full h-full transition-all object-cover hover:scale-110"
+                  src="src/assets/images/slider2.jpg"
+                />
+              </div>
+              <div class="w-4/6">
+                <h6 class="lg:mb-4">
+                  <span class="text-lg font-medium text-moody">Beauty</span>
+                  <span class="text-moody">/</span>
+                  <span class="text-gray-500">Mar 30, 2023</span>
+                </h6>
+                <h2 class="text-2xl lg:text-4xl font-semibold">
+                  Lorem ipsum dolor sit amet conse adipisicing
+                </h2>
+              </div>
+            </div>
+            <div aria-label="fourth post" class="revealBottomBlog flex gap-6">
+              <div class="w-32 h-32 lg:w-40 lg:h-40 overflow-hidden">
+                <img
+                  loading="lazy"
+                  class="w-full h-full transition-all object-cover hover:scale-110"
+                  src="src/assets/images/slider2.jpg"
+                />
+              </div>
+              <div class="w-4/6">
+                <h6 class="lg:mb-4">
+                  <span class="text-lg font-medium text-moody">Beauty</span>
+                  <span class="text-moody">/</span>
+                  <span class="text-gray-500">Mar 30, 2023</span>
+                </h6>
+                <h2 class="text-2xl lg:text-4xl font-semibold">
+                  Lorem ipsum dolor sit amet conse adipisicing
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="mt-10 bg-dark text-white">
+        <div
+          class="flex flex-col lg:flex-row gap-10 w-11/12 mx-auto py-20 lg:w-4/5"
+        >
+          <div class="flex-1">
+            <h2 class="mb-4">
+              <a href="#">LOGO</a>
+            </h2>
+            <p class="mr-6">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas,
+              consectetur. Eaque consequatur ab et! Nisi!
+            </p>
+            <div class="flex items-center gap-3 mt-4">
+              <a href="https://www.facebook.com/influennzskinclinic">
+                <svg
+                  fill="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"
+                  ></path>
+                </svg>
+              </a>
+              <a href="#">
+                <svg
+                  fill="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"
+                  ></path>
+                </svg>
+              </a>
+              <a href="https://www.instagram.com/influennzskinclinic/">
+                <svg
+                  fill="none"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  class="w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                  <path
+                    d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"
+                  ></path>
+                </svg>
+              </a>
+              <a href="#">
+                <svg
+                  fill="currentColor"
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="0"
+                  class="w-5 h-5"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke="none"
+                    d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"
+                  ></path>
+                  <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="flex-1">
+            <h2 class="uppercase text-xl mb-4 font-semibold">links</h2>
+            <ul class="text-lg text-gray-200">
+              <li>
+                <a class="hover:text-white" href="/">Home</a>
+              </li>
+              <li>
+                <a class="hover:text-white" href="/aboutus">About</a>
+              </li>
+              <li>
+                <a class="hover:text-white" href="/patient-testimonials"
+                  >Testimonial</a
+                >
+              </li>
+              <li>
+                <a class="hover:text-white" href="/contact-us">Contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="flex-1">
+            <h2 class="uppercase text-xl mb-4 font-semibold">Contact</h2>
+            <p class="mb-1 text-gray-200 font-light">
+              6 West Broadway, New York, NY 10012, USA
+            </p>
+            <p class="text-lg text-gray-200 font-light">
+              <a class="inline-block" href="mailto:contact@influennz.com"
+                >contact@influennz.com</a
+              >
+              <a class="inline-block" href="tel:+918368778208"
+                >+91 8368778208</a
+              >
+            </p>
+          </div>
+          <div class="flex-1">
+            <h2 class="uppercase mb-4 text-xl font-semibold">Map</h2>
+            <img
+              loading="lazy"
+              class="w-4/5 h-auto mx-auto"
+              src="src/assets/images/map.png"
+            />
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

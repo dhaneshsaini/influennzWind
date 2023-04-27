@@ -1,0 +1,70 @@
+/* responsive */
+@media (min-width: 640px) {
+}
+@media (min-width: 786px) {
+  .form form {
+    flex-direction: row;
+  }
+  .about_section {
+    width: 80%;
+  }
+  .main_heading {
+    width: 50%;
+    margin-bottom: 40px;
+  }
+  .main_heading h2 {
+    font-size: 4rem;
+  }
+  .heading h2 {
+    font-size: 2rem;
+  }
+  .about .content .image {
+    flex-basis: 64.332%;
+  }
+  .about .content .text {
+    padding: 0 0 0 60px;
+    flex-basis: 35%;
+  }
+  .stats_box {
+    bottom: 200px;
+    position: relative;
+    display: inline-flex;
+    justify-content: flex-end;
+  }
+  .stats_box .box_pos {
+    width: 50%;
+    flex-direction: row;
+  }
+  .slider_text h2 {
+    font: 500 6rem var(--cormorant);
+  }
+  .slider_text .slider_btn {
+    font-size: 1.2rem;
+    padding: 20px 40px;
+  }
+
+  .about_doc_main_section {
+    flex-direction: row;
+  }
+  .about_doc_main_section .one {
+    flex: 25%;
+  }
+  .about_doc_main_section .image {
+    flex: 35%;
+  }
+  .about_doc_main_section .three {
+    flex: 40%;
+  }
+}
+@media (min-width: 1024px) {
+}
+@media (min-width: 1280px) {
+}
+@media (min-width: 1536px) {
+  /* .form {
+    width: 25%;
+  } */
+  .about_section {
+    width: 100%;
+  }
+}
